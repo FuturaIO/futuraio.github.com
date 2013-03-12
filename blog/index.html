@@ -3,7 +3,7 @@ layout: default
 title: Blog
 ---
 
-<section class="container">
+<section id="blog" class="container">
 	{% for post in site.posts %}
 		<article>
 		    {{ post.date | date: "%B %e, %Y" }}

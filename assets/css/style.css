@@ -68,6 +68,23 @@ header .logo {
 /* BLOG
 /************************/
 
+#blog {
+	background: #fff;
+	border: 1em solid #677b93;
+	text-align: center;
+	font-family: "freight-sans-pro", helvetica neue, sans-serif;
+}
+
+#blog article a {
+	font-family: "athelas", georiga, serif;
+	font-size: 2em;
+	color: #323232;
+}
+
+#blog article p {
+	font-family: "freight-sans-pro", helvetica neue, sans-serif;
+}
+
 /*************************
 /* RESPONSIVITY
 /************************/
