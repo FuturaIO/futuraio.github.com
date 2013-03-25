@@ -1,29 +1,101 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel "shortcut icon" href="/assets/icon.png">
-        <link rel="stylesheet" type="text/css" href="/components/normalize-css/normalize.css">
-        <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
-        <script type="text/javascript" src="//use.typekit.net/jgm8isd.js"></script>
-        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    </head>
-    <body>
-    	<header>
-            <div class="container">
-                <a href="assets/img/logo.png" title="Futura IO" class="logo"></a>
-    			<nav>
-    				<a href="/#work">Work</a>
-    				<a href="/#about">About</a>
-                    <a href="/#contact">Contact</a>
-    				<a href="/blog">Blog</a>
-    			</nav>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Futura IO | A Product Innovation Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Futura IO is a product innovation studio in Orlando, FL focused on bringing a User Centered Design Approach to the creation of iOS & Mac applications">
+    <meta name="author" content="">
+
+    <!-- TypeKIT! -->
+    <script type="text/javascript" src="//use.typekit.net/jgm8isd.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+    <!-- styles -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33813727-1']);
+  _gaq.push(['_setDomainName', 'futura.io']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </head>
+
+  <body data-spy="scroll" data-target=".subnav" data-offset="50">
+
+
+  <!-- Container -->
+  <div class="container">
+
+
+    <!-- Header -->
+    <header>
+        <div class="row">
+            <div class="span8 offset2">
+                <div id="logo">
+                    <a href="http://futura.io">
+                </div>
+                <div id="blog">
+                    <a href="http://futuraio.tumblr.com" class="btn">Blog</a>
+                </div>
             </div>
-		</header>
-		<main>
-        	{{ content }}
-        </main>
-    </body>
+        </div>
+    </header>
+
+    <section class="callout">
+        <div class="row">
+            <div class="span8 offset2">
+                <h2 class="desc">A Product Innovation Studio focused on bringing a User Centered Design approach to the creation of iOS and Mac applications.</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="row">
+            <div class="span4 offset4">
+                <h3>Stay in Touch</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span4 offset4">
+                <!-- Begin MailChimp Signup Form -->
+                    <div id="mc_embed_signup">
+                    <form action="http://futura.us5.list-manage1.com/subscribe/post?u=21039f33cea378bec70b6a9f9&amp;id=e9ea682ea3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"><input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required><input type="submit" value="go" name="go" id="mc-embedded-subscribe" class="button">
+                    </form>
+                    </div>
+                <!--End mc_embed_signup-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="span4 offset4">
+                <p>*currently available <a href="mailto:intel@futura.io">for hire</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+    </footer>
+
+  </div><!-- /container -->
+
+  </body>
 </html>
