@@ -20,6 +20,7 @@ header {
 
 header nav {
 	float: right;
+	margin-right: 2em;
 }
 
 header a {
@@ -46,6 +47,7 @@ header .logo {
 #about {
 	background: #fff;
 	border: 1em solid #677b93;
+	margin: 0 2em;
 }
 
 #about p {
@@ -56,12 +58,16 @@ header .logo {
 
 #about h1 {
 	font-family: "athelas", georiga, serif;
-	font-size: 3em;
+	font-size: 3.5em;
 	text-align: center;
 	color: #677b93;
-	max-width: 1024px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 50px;
+}
+
+.partner {
+	background: #bbbbaf;
+	margin: 50px;
+	padding: 30px;
 }
 
 /*************************
