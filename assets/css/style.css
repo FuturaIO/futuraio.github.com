@@ -13,14 +13,11 @@ p, a {
 
 header {
 	background: #faf9f5;
-	height: 3em;
 	margin-top: 2em;
-	padding-bottom: 1em;
 }
 
 header nav {
 	float: right;
-	margin-right: 2em;
 }
 
 header a {
@@ -65,7 +62,7 @@ header .logo {
 }
 
 .partner {
-	background: #bbbbaf;
+	background: #faf9f5;
 	margin: 50px;
 	padding: 30px;
 }
