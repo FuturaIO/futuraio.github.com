@@ -25,16 +25,21 @@ header a {
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	padding-left: 2em;
+	margin-left: 2em;
 }
 
 header a:hover {
 	color: #111;
+	border-bottom: 3px solid #111;
+	padding-bottom: 3px;
 }
 
 header .logo {
-	height: 50px;
 	width: 150px;
+}
+
+header .logo:hover {
+	border-bottom: none;
 }
 
 /*************************
@@ -71,6 +76,15 @@ header .logo {
 /* WORK
 /************************/
 
+#work p {
+	color: #fff;
+}
+
+.info {
+	max-width: 300px;
+	margin: 2em 0 2em 0;
+}
+
 .wtitle {
 	color: #333;
 	text-align: center;
@@ -82,6 +96,19 @@ header .logo {
 	background-image: url(/assets/img/traffic_product@2x.jpg);
 	height: 700px;
 	background-position: center;
+}
+
+/*************************
+/* TEAM
+/************************/
+
+/*************************
+/* CONTACT
+/************************/
+
+#contact {
+	background: #333;
+	height: 450px;
 }
 
 /*************************
