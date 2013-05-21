@@ -1,5 +1,5 @@
 body {
-	background: #faf9f5;
+	background: #fff;
 }
 
 p, a {
@@ -12,8 +12,8 @@ p, a {
 /************************/
 
 header {
-	background: #faf9f5;
-	margin-top: 2em;
+	background: #fff;
+	margin: 2em 0 2em 0;
 }
 
 header nav {
@@ -21,7 +21,7 @@ header nav {
 }
 
 header a {
-	color: #677b93;
+	color: #333;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -43,12 +43,12 @@ header .logo {
 
 #about {
 	background: #fff;
-	border: 1em solid #677b93;
+	border: 1em solid #333;
 	margin: 0 2em;
 }
 
 #about p {
-	color: #bbbbaf;
+	color: #dcdcdc;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -57,14 +57,31 @@ header .logo {
 	font-family: "athelas", georiga, serif;
 	font-size: 3.5em;
 	text-align: center;
-	color: #677b93;
+	color: #333;
 	margin: 50px;
 }
 
 .partner {
-	background: #faf9f5;
+	background: #dcdcdc;
 	margin: 50px;
 	padding: 30px;
+}
+
+/*************************
+/* WORK
+/************************/
+
+.wtitle {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "freight-sans-pro", helvetica, sans-serif;
+}
+
+#traffic {
+	background-image: url(/assets/img/traffic_product@2x.jpg);
+	height: 700px;
+	background-position: center;
 }
 
 /*************************
@@ -73,7 +90,7 @@ header .logo {
 
 #blog {
 	background: #fff;
-	border: 1em solid #677b93;
+	border: 1em solid #333;
 	text-align: center;
 	font-family: "freight-sans-pro", helvetica neue, sans-serif;
 }
