@@ -18,6 +18,8 @@ header {
 
 header nav {
 	float: right;
+	padding-top: 5px;
+	margin-right: 2em;
 }
 
 header a {
@@ -76,13 +78,13 @@ header .logo:hover {
 /* WORK
 /************************/
 
-#work p {
-	color: #fff;
+.info {
+	max-width: 400px;
+	padding: 100px 0 100px 0;
 }
 
-.info {
-	max-width: 300px;
-	margin: 2em 0 2em 0;
+.appStore {
+	width: 200px;
 }
 
 .wtitle {
@@ -96,6 +98,24 @@ header .logo:hover {
 	background-image: url(/assets/img/traffic_product@2x.jpg);
 	height: 700px;
 	background-position: center;
+}
+
+#traffic p {
+	color: #fff;
+}
+
+#surfr {
+	background-image: url(/assets/img/surfr_product@2x.jpg);
+	height: 700px;
+	background-position: center;
+}
+
+#surfr p {
+	color: #fff;
+}
+
+#surfr .info {
+	float: right;
 }
 
 /*************************
@@ -140,4 +160,23 @@ header .logo:hover {
 	max-width: 1140px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px){
+	header {
+		text-align: center;
+		margin: 1em 0 1em 0;
+	}
+	header .logo {
+		padding-bottom: 5px;
+	}
+	header nav {
+		float: none;
+	}
+}
+
+@media screen and (max-width: 780px){
+	#about {
+		margin: 0;
+	}
 }
