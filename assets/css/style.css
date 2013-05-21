@@ -30,7 +30,7 @@ header a {
 	margin-left: 2em;
 }
 
-header a:hover {
+nav a:hover {
 	color: #111;
 	border-bottom: 3px solid #111;
 	padding-bottom: 3px;
