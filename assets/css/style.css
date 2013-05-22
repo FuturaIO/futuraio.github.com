@@ -2,6 +2,13 @@ body {
 	background: #fff;
 }
 
+::selection {
+	background: #ffb7b7; /* Safari */
+	}
+::-moz-selection {
+	background: #ffb7b7; /* Firefox */
+}
+
 p, a {
 	font-family: "freight-sans-pro", helvetica, sans-serif;
 	font-size: 1em;
@@ -18,7 +25,7 @@ header {
 
 header nav {
 	float: right;
-	padding-top: 5px;
+	padding-top: 10px;
 	margin-right: 2em;
 }
 
@@ -52,6 +59,7 @@ header .logo:hover {
 	background: #fff;
 	border: 1em solid #333;
 	margin: 0 2em;
+	height: 500px;
 }
 
 #about p {
@@ -65,13 +73,13 @@ header .logo:hover {
 	font-size: 3.5em;
 	text-align: center;
 	color: #333;
-	margin: 50px;
+	margin: 75px;
 }
 
 .partner {
 	background: #dcdcdc;
-	margin: 50px;
-	padding: 30px;
+	margin: 75px 0;
+	padding: 35px;
 }
 
 /*************************
@@ -92,6 +100,8 @@ header .logo:hover {
 	text-align: center;
 	text-transform: uppercase;
 	font-family: "freight-sans-pro", helvetica, sans-serif;
+	font-size: 1.5em;
+	padding: 10px;
 }
 
 #traffic {
@@ -102,6 +112,12 @@ header .logo:hover {
 
 #traffic p {
 	color: #fff;
+	font-size: 1.1em;
+}
+
+#traffic .ttitle {
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 #surfr {
@@ -111,11 +127,17 @@ header .logo:hover {
 }
 
 #surfr p {
+	font-size: 1.1em;
 	color: #fff;
 }
 
 #surfr .info {
 	float: right;
+}
+
+#surfr .stitle {
+	font-size: 1.5em;
+	font-weight: bold;
 }
 
 /*************************
@@ -138,12 +160,24 @@ header .logo:hover {
 #blog {
 	background: #fff;
 	font-family: "freight-sans-pro", helvetica neue, sans-serif;
+	padding-bottom: 100px;
+}
+
+article {
+	text-align: center;
 }
 
 #blog article a {
 	font-family: "athelas", georiga, serif;
 	font-size: 2em;
 	color: #323232;
+	font-weight: bold;
+	text-decoration: none;
+}
+#blog article a:hover {
+	color: #111;
+	border-bottom: 3px solid #111;
+	padding-bottom: 3px;
 }
 
 #blog article p {
