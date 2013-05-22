@@ -93,10 +93,71 @@ header .logo:hover {
 	background-size: 165px 110px;;
 	height: 55px;
 	margin: 75px 0;
+	float: left;
 }
 
 #partner_surfr a:hover {
 	background-position: 0 100%;
+}
+
+#partner_envy a {
+	background: url(/assets/img/envy_sprite.png) no-repeat scroll 0 0 transparent;
+	display: block;
+	width: 165px;
+	background-size: 165px 156px;;
+	height: 78px;
+	margin: 50px 50px;
+	float: left;
+}
+
+#partner_envy a:hover {
+	background-position: 0 100%;
+}
+
+#partner_realthread a {
+	background: url(/assets/img/rt_sprite.png) no-repeat scroll 0 0 transparent;
+	display: block;
+	width: 105px;
+	background-size: 105px 56px;;
+	height: 28px;
+	margin: 87px 50px;
+	float: left;
+}
+
+#partner_realthread a:hover {
+	background-position: 0 100%;
+}
+
+#partner_traffic a {
+	background: url(/assets/img/traffic_sprite.png) no-repeat scroll 0 0 transparent;
+	display: block;
+	width: 190px;
+	background-size: 190px 110px;;
+	height: 55px;
+	margin: 70px 25px;
+	float: left;
+}
+
+#partner_traffic a:hover {
+	background-position: 0 100%;
+}
+
+#partner_codeschool a {
+	background: url(/assets/img/codeschool_sprite.png) no-repeat scroll 0 0 transparent;
+	display: block;
+	width: 180px;
+	background-size: 180px 59px;;
+	height: 29px;
+	margin: 88px 25px;
+	float: left;
+}
+
+#partner_codeschool a:hover {
+	background-position: 0 100%;
+}
+
+.clear {
+	clear: both;
 }
 
 /*************************
