@@ -14,6 +14,15 @@ p, a {
 	font-size: 1em;
 }
 
+.section_title {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "freight-sans-pro", helvetica, sans-serif;
+	font-size: 1.5em;
+	padding: 10px;
+}
+
 /*************************
 /* HEADER
 /************************/
@@ -83,11 +92,11 @@ header .logo:hover {
 	width: 165px;
 	background-size: 165px 110px;;
 	height: 55px;
-	margin: 50px 0;
+	margin: 75px 0;
 }
 
 #partner_surfr a:hover {
-	background-position-y: 100%;
+	background-position: 0 100%;
 }
 
 /*************************
@@ -102,15 +111,6 @@ header .logo:hover {
 .appStore {
 	width: 200px;
 	padding-top: 20px;
-}
-
-.wtitle {
-	color: #333;
-	text-align: center;
-	text-transform: uppercase;
-	font-family: "freight-sans-pro", helvetica, sans-serif;
-	font-size: 1.5em;
-	padding: 10px;
 }
 
 #traffic {
@@ -159,6 +159,39 @@ header .logo:hover {
 /* TEAM
 /************************/
 
+#team {
+	height: 500px;
+}
+
+.teamMember {
+	max-width: 450px;
+	float: left;
+	padding-left: 90px;
+}
+
+.teamMember img {
+	width: 250px;
+	padding-left: 110px;
+}
+
+.teamMember .name {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.center {
+	padding: 20px;
+	text-align: center;
+}
+
+.teamMember .sbtn {
+	color: #fff;
+	background: #333;
+	padding: 8px 12px;
+	text-decoration: none;
+	margin-left: 15px;
+}
+
 /*************************
 /* CONTACT
 /************************/
@@ -166,6 +199,16 @@ header .logo:hover {
 #contact {
 	background: #333;
 	height: 450px;
+	text-align: center;
+}
+
+#contact p,a {
+	color: #fff;
+}
+
+#contact .ctitle {
+	font-size: 2em;
+	padding-top: 100px;
 }
 
 /*************************
