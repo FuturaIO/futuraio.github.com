@@ -338,11 +338,11 @@ header .logo:hover {
 	padding-bottom: 100px;
 }
 
-article {
+#preview {
 	text-align: center;
 }
 
-#blog article a {
+#blog h1 {
 	font-family: "athelas", georiga, serif;
 	font-size: 2em;
 	color: #323232;
@@ -357,6 +357,12 @@ article {
 
 #blog article p {
 	font-family: "freight-sans-pro", helvetica neue, sans-serif;
+}
+
+.bcontainer {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*************************
