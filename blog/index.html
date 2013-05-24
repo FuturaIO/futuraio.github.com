@@ -3,11 +3,12 @@ layout: default
 title: Blog
 ---
 
-<section id="blog" class="container">
+<section id="blog" class="bcontainer">
 	{% for post in site.posts %}
-		<article>
-		    {{ post.date | date: "%B %e, %Y" }}
-		    <a href="{{ post.url }}">{{ post.title }}</a>
-		</article>
+    <section id="preview">
+	    <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+      <br/>
+      <p>{{ post.date | date: "%B %e, %Y" }}</p>
+    </section>
 	{% endfor %}
 </section>
