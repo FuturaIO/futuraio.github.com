@@ -179,7 +179,7 @@ header .logo:hover {
 #traffic {
 	background: url(/assets/img/traffic_product@2x.jpg) center no-repeat;
 	height: 700px;
-	background-position: cover;
+	background-size: cover;
 }
 
 #traffic .tlogo {
@@ -199,7 +199,7 @@ header .logo:hover {
 #surfr {
 	background: url(/assets/img/surfr_product2@2x.jpg) center 40% no-repeat;
 	height: 700px;
-	background-position: cover;
+	background-size: cover;
 }
 
 #surfr .slogo {
