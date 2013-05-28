@@ -36,7 +36,6 @@ header {
 header nav {
 	float: right;
 	padding-top: 10px;
-	margin-right: 2em;
 }
 
 nav a {
@@ -55,7 +54,6 @@ nav a:hover {
 
 header .logo {
 	width: 150px;
-	margin-left: 2em;
 }
 
 header .logo:hover {
@@ -74,15 +72,16 @@ header .logo:hover {
 }
 
 #about p {
-	color: #dcdcdc;
+	color: #ccc;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 95%;
+	letter-spacing: 1px;
+	font-size: 90%;
 }
 
 #about h1 {
 	font-family: "athelas", georiga, serif;
-	font-size: 3.5em;
+	font-size: 4em;
 	text-align: center;
 	color: #333;
 	margin: 75px;
@@ -122,7 +121,7 @@ header .logo:hover {
 	width: 100px;
 	background-size: 100px 201px;;
 	height: 100px;
-	margin: 50px 85px;
+	margin: 50px 90px;
 	float: left;
 }
 
@@ -136,7 +135,7 @@ header .logo:hover {
 	width: 190px;
 	background-size: 150px 87px;;
 	height: 43px;
-	margin: 75px 0 0 10px;
+	margin: 75px 10px 0 10px;
 	float: left;
 }
 
@@ -150,7 +149,7 @@ header .logo:hover {
 	width: 180px;
 	background-size: 180px 59px;;
 	height: 29px;
-	margin: 88px 20px;
+	margin: 88px 25px;
 	float: left;
 }
 
@@ -236,7 +235,6 @@ header .logo:hover {
 
 .teamMember a {
 	color: #333;
-	font-weight: bold;
 	text-decoration: none;
 	border-bottom: 2px solid #dcdcdc;
 	padding-bottom: 1px;
@@ -254,7 +252,7 @@ header .logo:hover {
 
 .teamMember .name {
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 .center {
@@ -344,21 +342,32 @@ article {
 	text-align: center;
 }
 
-#blog article a {
+#preview a {
 	font-family: "athelas", georiga, serif;
 	font-size: 2em;
 	color: #323232;
 	font-weight: bold;
 	text-decoration: none;
 }
-#blog article a:hover {
+#preview a:hover {
 	color: #111;
 	border-bottom: 3px solid #111;
 	padding-bottom: 3px;
 }
 
+#preview {
+	text-align: center;
+}
+#blog article h1 {
+	font-family: "athelas", georiga, serif;
+	color: #323232;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 #blog article p {
 	font-family: "freight-sans-pro", helvetica neue, sans-serif;
+	text-align: left;
 }
 
 /*************************
@@ -367,8 +376,12 @@ article {
 
 .container {
 	max-width: 1140px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto 0 auto;
+}
+
+.bcontainer {
+	max-width: 600px;
+	margin: 0 auto 0 auto;
 }
 
 @media screen and (min-width: 320px) and (max-width: 600px){

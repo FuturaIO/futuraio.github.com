@@ -6,7 +6,7 @@ title: Blog
 <section id="blog" class="bcontainer">
 	{% for post in site.posts %}
     <section id="preview">
-	    <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
+	    <a href="{{ post.url }}">{{ post.title }}</a>
       <br/>
       <p>{{ post.date | date: "%B %e, %Y" }}</p>
     </section>
