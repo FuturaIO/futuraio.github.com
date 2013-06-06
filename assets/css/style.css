@@ -404,11 +404,14 @@ article {
 		float: none;
 	}
 	#about h1 {
-		font-size: 1.5em;
-		margin: 20px 10px;
+		font-size: 2.5em;
+		margin: 50px 15px;
 	}
 	#about p {
-		font-size: .9em;
+		margin: 20px 15px;
+	}
+	#partner_codeschool, #partner_surfr, #partner_traffic, #partner_realthread, #partner_envy {
+		display: none;
 	}
 }
 
@@ -420,10 +423,7 @@ article {
 	#about h1 {
 		font-size: 3em;
 	}
-	#about p {
-		display: none;
-	}
-	#partner_codeschool, #partner_surfr, #partner_traffic, #partner_realthread, #partner_envy {
+  #partner_surfr, #partner_traffic {
 		display: none;
 	}
 }
