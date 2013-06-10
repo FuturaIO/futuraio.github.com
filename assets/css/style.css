@@ -370,6 +370,14 @@ article {
 	text-align: left;
 }
 
+article ul {
+	text-align: left;
+}
+
+article a {
+	color: inherit;
+}
+
 /*************************
 /* RESPONSIVITY
 /************************/

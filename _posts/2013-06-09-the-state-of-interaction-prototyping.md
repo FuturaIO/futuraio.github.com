@@ -6,8 +6,6 @@ title: The State of Interaction Prototyping
 {{ page.title }}
 ==============
 
-<p class="meta">June 2013</p>
-
 The tools for which we prototype interaction are constantly changing. For prototyping web applications, firing up a interactive environment is constantly simplifying - but looking into prototyping interaction for iOS devices, new tools are thinking in new ways.
 
 Considering the [McLuhan adage](https://www.google.com/search?q=adage&oq=adage&aqs=chrome.0.57j5j0l2j62l2.1006j0&sourceid=chrome&ie=UTF-8#sclient=psy-ab&q=first%20we%20shape%20our%20tools%20thereafter%20they%20shape%20us&oq=&gs_l=&pbx=1&bav=on.2,or.r_cp.r_qf.&fp=701c806c0df3bf7b&biw=1440&bih=803&pf=p&pdl=300) about our tools having their way with us people, it can be helpful to look around at the opportunities afforded us by our current toolsets. Even more so, applying cross disciplinary comparisons help us see the way things might become.
@@ -43,4 +41,4 @@ In light of all this tool pondering and connecting with the movement of Product 
 
 So, if Web Product designers are working much more on the codebase for products - Why aren't iOS Product designers getting into Xcode and working on the codebase as well? Amazingly enough, Xcode offers much more GUI based design options that ST2 and the command line working on a web product. Could it just be that Xcode or Cocoa is a much more intimidating hurdle? Do designers need more tools to bridge the gap?
 
-Both could be the case. However, this is an interesting behavior/trend to watch. I think some other tools like [PaintCode](http://www.paintcodeapp.com/) and [Spark Inspector](http://sparkinspector.com/) are going to bridge the gap for designers to get more comfortable working on the iOS codebase.
+Both could be the case. However, this is an interesting behavior/trend to watch. Other tools like [PaintCode](http://www.paintcodeapp.com/) and [Spark Inspector](http://sparkinspector.com/) are going to bridge the gap for designers to get more comfortable working on the iOS codebase.
