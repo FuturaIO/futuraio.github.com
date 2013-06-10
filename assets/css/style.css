@@ -179,7 +179,6 @@ header .logo:hover {
 	background: url(/assets/img/traffic_product@2x.jpg) center no-repeat;
 	height: 700px;
 	background-size: cover;
-	border-top: 1em solid #333;
 }
 
 #traffic .tlogo {
@@ -200,8 +199,6 @@ header .logo:hover {
 	background: url(/assets/img/surfr_product2@2x.jpg) center 40% no-repeat;
 	height: 700px;
 	background-size: cover;
-	border-top: 1em solid #333;
-	border-bottom: 1em solid #333;
 }
 
 #surfr .slogo {
@@ -403,6 +400,9 @@ article {
 	header nav {
 		float: none;
 	}
+	nav a {
+		margin-left: 1em;
+	}
 	#about h1 {
 		font-size: 2.5em;
 		margin: 50px 15px;
@@ -412,6 +412,15 @@ article {
 	}
 	#partner_codeschool, #partner_surfr, #partner_traffic, #partner_realthread, #partner_envy {
 		display: none;
+	}
+	#traffic .info, #surfr .info {
+		padding: 50px 20px 0 20px;
+	}
+	.teamMember {
+		padding: 0 20px 20px 20px;
+	}
+	.teamMember img {
+		padding-left: 70px;
 	}
 }
 
@@ -425,5 +434,15 @@ article {
 	}
   #partner_surfr, #partner_traffic {
 		display: none;
+	}
+	#traffic .info, #surfr .info {
+		padding: 80px 0 100px 20px;
+	}
+	.teamMember {
+		max-width: 370px;
+		padding: 0 0 15px 60px;
+	}
+	.teamMember img {
+		padding-left: 70px;
 	}
 }
