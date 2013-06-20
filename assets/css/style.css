@@ -320,6 +320,12 @@ header .logo:hover {
 	margin: 20px;
 }
 
+#contact a {
+	color: #fff;
+	font-size: 95%;
+	margin-top: 10px;
+}
+
 .social a {
 	text-decoration: none;
 }
