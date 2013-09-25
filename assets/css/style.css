@@ -1,5 +1,6 @@
 body {
 	background: #fff;
+	margin: 0;
 }
 
 ::selection {
@@ -11,11 +12,11 @@ body {
 
 p, a {
 	font-family: "freight-sans-pro", helvetica, sans-serif;
-	font-size: 1.1em;
+	font-size: 1.125em;
 	line-height: 1.5em;
 }
 
-.section_title {
+.sectionTitle {
 	color: #333;
 	text-align: center;
 	text-transform: uppercase;
@@ -30,12 +31,12 @@ p, a {
 
 header {
 	background: #fff;
-	margin: 2em 0 2em 0;
+	margin: 2em 0;
 }
 
 header nav {
 	float: right;
-	padding-top: 10px;
+	padding-top: 7px;
 }
 
 nav a {
@@ -53,7 +54,7 @@ nav a:hover {
 }
 
 header .logo {
-	width: 150px;
+	width: 120px;
 }
 
 header .logo:hover {
@@ -66,95 +67,39 @@ header .logo:hover {
 
 #about {
 	background: #fff;
-	border: 1em solid #333;
 	margin: 0 2em;
 	height: auto;
+}
+
+#about h1 {
+	font-family: "athelas", georiga, serif;
+	font-size: 4em;
+	text-align: center;
+	color: #333;
+	margin: 3em 0 1em 0;
 }
 
 #about p {
 	color: #ccc;
 	text-align: center;
+	font-size: 95%;
+	margin-bottom: 0;
+}
+
+#about .companies {
 	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-size: 90%;
+	font-size: 110%;
+	margin: 0;
+	padding-bottom: 12em;
 }
 
-#about h1 {
-	font-family: "athelas", georiga, serif;
-	font-size: 3.7em;
-	text-align: center;
-	color: #333;
-	margin: 100px 0;
+#about .companies a {
+	color: #ccc;
+	text-decoration: none;
 }
 
-#partner_surfr a {
-	background: url(/assets/img/surfr_sprite.png) no-repeat scroll 0 0 transparent;
-	display: block;
-	width: 150px;
-	background-size: 141px 94px;;
-	height: 47px;
-	margin: 81px 35px 0 0;
-	float: left;
-}
-
-#partner_surfr a:hover {
-	background-position: 0 100%;
-}
-
-#partner_envy a {
-	background: url(/assets/img/envy_sprite.png) no-repeat scroll 0 0 transparent;
-	display: block;
-	width: 165px;
-	background-size: 165px 156px;;
-	height: 78px;
-	margin: 50px 35px;
-	float: left;
-}
-
-#partner_envy a:hover {
-	background-position: 0 100%;
-}
-
-#partner_realthread a {
-	background: url(/assets/img/rt_sprite.png) no-repeat scroll 0 0 transparent;
-	display: block;
-	width: 100px;
-	background-size: 100px 201px;;
-	height: 100px;
-	margin: 50px 90px;
-	float: left;
-}
-
-#partner_realthread a:hover {
-	background-position: 0 100%;
-}
-
-#partner_traffic a {
-	background: url(/assets/img/traffic_sprite.png) no-repeat scroll 0 0 transparent;
-	display: block;
-	width: 190px;
-	background-size: 150px 87px;;
-	height: 43px;
-	margin: 75px 10px 0 10px;
-	float: left;
-}
-
-#partner_traffic a:hover {
-	background-position: 0 100%;
-}
-
-#partner_codeschool a {
-	background: url(/assets/img/codeschool_sprite.png) no-repeat scroll 0 0 transparent;
-	display: block;
-	width: 180px;
-	background-size: 180px 59px;;
-	height: 29px;
-	margin: 88px 25px;
-	float: left;
-}
-
-#partner_codeschool a:hover {
-	background-position: 0 100%;
+#about .companies a:hover {
+	text-decoration: underline;
 }
 
 .clear {
@@ -346,6 +291,7 @@ header .logo:hover {
 
 article {
 	text-align: center;
+	padding: 2em 0;
 }
 
 #preview a {
@@ -390,15 +336,18 @@ article a {
 
 .container {
 	max-width: 1140px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 }
 
-.bcontainer {
+.blogContainer {
 	max-width: 600px;
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 }
 
 @media screen and (min-width: 320px) and (max-width: 600px){
+	.container {
+		padding: 0 10px;
+	}
 	#about {
 		margin: 0;
 		height: auto;
@@ -419,13 +368,16 @@ article a {
 	}
 	#about h1 {
 		font-size: 2.5em;
-		margin: 50px 15px;
+		margin: 75px 15px;
 	}
 	#about p {
-		margin: 20px 15px;
+		margin: 10px 15px;
 	}
-	#partner_codeschool, #partner_surfr, #partner_traffic, #partner_realthread, #partner_envy {
-		display: none;
+	#about .companies {
+		padding-bottom: 2em;
+	}
+	#about .companies a {
+		font-size: 100%;
 	}
 	#traffic .info, #surfr .info {
 		padding: 50px 20px 0 20px;
@@ -439,15 +391,15 @@ article a {
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
+	.container {
+		padding: 0 20px;
+	}
 	#about {
 		margin: 0;
 		height: auto;
 	}
 	#about h1 {
 		font-size: 3em;
-	}
-  #partner_surfr, #partner_traffic {
-		display: none;
 	}
 	#traffic .info, #surfr .info {
 		padding: 80px 0 100px 20px;
