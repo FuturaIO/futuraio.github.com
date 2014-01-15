@@ -16,7 +16,5 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "latest",
-    "normalize-css": "latest"
   }
 }
