@@ -1,11 +1,11 @@
 // ========================================
 //
-// Layout patterns
+// Global Settings
 //
 // ========================================
 
-//
+// Top level Settings
 // ========================================
-.container {
-	width: $container-main;
-}
+
+// Container
+$container-main: 1180px;
