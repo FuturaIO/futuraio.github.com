@@ -171,28 +171,58 @@ table {
  */
 
 html {
-  background-color: #222222;
+  background-color: #fff;
 }
 
 body {
-  color: #fafafa;
-  font-family: "helvetica neue", helvetica, arial, sans-serif;
-  font-size: 1.8rem;
+  font-family: "freight-sans-pro",helvetica,sans-serif;
+  font-size: 18px;
 }
 
 .container {
-  max-width:  680px;
-  margin: 0 3em;
-  padding: 3em 0;
+  max-width:  1140px;
+  margin: 0 auto;
 }
 
-a {
-  color: #68AEFC;
+p {
+  max-width: 500px;
+}
+
+h1 {
+  font-family: "futura-pt",sans-serif;
+  font-size: 15rem;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin: 0;
+  line-height: 0.5;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  padding: 2em 0;
+}
+
+.list-one {
+  background-color: #468EE5;
+}
+
+.list-two {
+  background-color: #A2D0C8;
+}
+
+.list-three {
+  background-color: #3038A6;
+}
+
+.list p {
+  color: #fff;
 }
 
 @media (max-width: 780px) {
-  .container {
-    margin: 0 1em;
-    padding: 1em 0;
-  }
+
 }
