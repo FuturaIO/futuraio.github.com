@@ -1,6 +1,8 @@
 body {
 	background: #fff;
 	margin: 0;
+        font-family: "Open Sans", Helvetica, sans-serif; 
+        line-height: 1.75em;
 }
 
 ::selection {
@@ -10,17 +12,11 @@ body {
 	background: #ffb7b7; /* Firefox */
 }
 
-p, a {
-	font-family: "freight-sans-pro", helvetica, sans-serif;
-	font-size: 1.125em;
-	line-height: 1.5em;
-}
-
 .sectionTitle {
 	color: #333;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: "freight-sans-pro", helvetica, sans-serif;
+	font-family: "Open Sans", helvetica, sans-serif;
 	font-size: 1.5em;
 	padding: 15px;
 }
@@ -29,9 +25,34 @@ p, a {
 /* HEADER
 /************************/
 
+.topbar {
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topbar p {
+  padding: 0 20px;
+}
+
+.topbar a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 1px;
+}
+
+.topbar a:hover {
+  border-bottom-color: #aaa;
+}
+
 header {
-	background: #fff;
-	margin: 2em 0;
+  padding-top: 80px;
+  background: #fff;
 }
 
 header nav {
@@ -49,8 +70,8 @@ nav a {
 
 nav a:hover {
 	color: #111;
-	border-bottom: 3px solid #111;
-	padding-bottom: 3px;
+	border-bottom: 2px solid #111;
+	padding-bottom: 1px;
 }
 
 header .logo {
@@ -72,34 +93,37 @@ header .logo:hover {
 }
 
 #about h1 {
-	font-family: "athelas", georiga, serif;
-	font-size: 4em;
+	font-family: "Lora", georiga, serif;
+	font-size: 3em;
 	text-align: center;
 	color: #333;
-	margin: 3em 0 1em 0;
+	margin: 4em 0 1em 0;
 }
 
 #about p {
-	color: #ccc;
+	color: #aaa;
 	text-align: center;
 	font-size: 95%;
 	margin-bottom: 0;
 }
 
 #about .companies {
-	font-family: "athelas", georiga, serif;
 	font-size: 130%;
 	margin: 0;
 	padding-bottom: 10em;
 }
 
 #about .companies a {
-	color: #ccc;
+	color: #aaa;
 	text-decoration: none;
+        border-bottom: 2px solid #dcdcdc;
+        padding-bottom: 1px;
 }
 
 #about .companies a:hover {
-	text-decoration: underline;
+	text-decoration: none;
+        border-bottom-color: #333;
+        color: #333;
 }
 
 .clear {
@@ -175,7 +199,7 @@ header .logo:hover {
 .teamMember {
 	max-width: 450px;
 	float: left;
-	padding: 0 0 35px 90px;
+	padding: 0 0 30px 80px;
 }
 
 .teamMember a {
@@ -186,8 +210,7 @@ header .logo:hover {
 }
 
 .teamMember a:hover {
-	border-bottom: 2px solid #333;
-	padding-bottom: 2px;
+	border-bottom-color: #333;
 }
 
 .teamMember img {
@@ -210,13 +233,13 @@ header .logo:hover {
 	background: #fff;
 	padding: 8px 16px;
 	text-decoration: none;
-	margin-left: 15px;
 	border: 2px solid #333;
+        margin: 0 8px;
 }
 
 .teamMember .sbtn:hover {
-	border-bottom: 2px solid #333;
-	padding-bottom: 8px;
+        background: #333;
+        color: #fff;
 }
 
 /*************************
@@ -280,81 +303,26 @@ header .logo:hover {
 }
 
 /*************************
-/* BLOG
-/************************/
-
-#blog {
-	background: #fff;
-	font-family: "freight-sans-pro", helvetica neue, sans-serif;
-	padding-bottom: 100px;
-}
-
-article {
-	text-align: center;
-	padding: 2em 0;
-}
-
-#preview a {
-	font-family: "athelas", georiga, serif;
-	font-size: 2em;
-	color: #323232;
-	font-weight: bold;
-	text-decoration: none;
-}
-#preview a:hover {
-	color: #111;
-	border-bottom: 3px solid #111;
-	padding-bottom: 3px;
-}
-
-#preview {
-	text-align: center;
-}
-#blog article h1 {
-	font-family: "athelas", georiga, serif;
-	color: #323232;
-	font-weight: bold;
-	text-decoration: none;
-}
-
-#blog article p {
-	font-family: "freight-sans-pro", helvetica neue, sans-serif;
-	text-align: left;
-}
-
-article ul {
-	text-align: left;
-}
-
-article a {
-	color: inherit;
-}
-
-/*************************
 /* RESPONSIVITY
 /************************/
 
 .container {
 	max-width: 1140px;
 	margin: 0 auto;
-}
-
-.blogContainer {
-	max-width: 600px;
-	margin: 0 auto;
+        padding: 0 20px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 600px){
-	.container {
-		padding: 0 10px;
-	}
-	#about {
+	.topbar {
+                font-size: 90%;
+        }
+        #about {
 		margin: 0;
 		height: auto;
 	}
 	header {
 		text-align: center;
-		margin: 1em 0 1em 0;
+                padding-top: 160px;
 	}
 	header .logo {
 		padding-bottom: 5px;
@@ -364,11 +332,12 @@ article a {
 		float: none;
 	}
 	nav a {
-		margin-left: 1em;
+		margin-left: 10px;
 	}
 	#about h1 {
-		font-size: 2.5em;
+		font-size: 2em;
 		margin: 75px 15px;
+                line-height: 1em;
 	}
 	#about p {
 		margin: 10px 15px;
@@ -380,35 +349,38 @@ article a {
 		font-size: 100%;
 	}
 	#traffic .info, #surfr .info {
-		padding: 50px 20px 0 20px;
+		padding-top: 50px;
+                font-size: 90%;
 	}
-	.teamMember {
-		padding: 0 20px 20px 20px;
-	}
-	.teamMember img {
-		padding-left: 70px;
-	}
+        .teamMember {
+                max-width: 300px;
+                padding-left: 0;
+        }
+        .teamMember img {
+                padding-left: 15px;
+        }
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
-	.container {
-		padding: 0 20px;
-	}
+        header {
+                padding-top: 100px;
+        }
 	#about {
 		margin: 0;
 		height: auto;
 	}
 	#about h1 {
 		font-size: 3em;
+                line-height: 1em;
 	}
 	#traffic .info, #surfr .info {
 		padding: 80px 0 100px 20px;
 	}
-	.teamMember {
-		max-width: 370px;
-		padding: 0 0 15px 60px;
-	}
-	.teamMember img {
-		padding-left: 70px;
-	}
+        .teamMember {
+                max-width: 340px;
+                padding-left: 20px;
+        }
+        .teamMember img {
+                padding-left: 40px;
+        }
 }
